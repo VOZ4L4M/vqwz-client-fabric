@@ -1,1 +1,22 @@
-
+{
+  "schemaVersion": 1,
+  "id": "vqwzclient",
+  "version": "${version}",
+  "name": "Vqwz's Client",
+  "description": "Custom Fabric Client v1",
+  "authors": ["Vqwz"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.vqwz.client.VqwzClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
